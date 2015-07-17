@@ -1,0 +1,12 @@
+body{background:#333;}
+
+#page-wraper:after{content: "Smartphone Layout";}
+
+h2 span, section h3{display:none;}
+body{font-size:xx-large}
+footer, input{font-size:large;}
+
+#creditos_picture{width:90%;margin:0 auto;}
+#creditos_picture img{display:block;width:100%;}
+
+#creditos_video{width:90%;margin:0 auto;}

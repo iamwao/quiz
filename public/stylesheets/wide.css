@@ -1,0 +1,33 @@
+body{background:#999;}
+
+#page-wrap:after{content: "Wide Layout";}
+
+nav			{float:left;width:15%;height:200px;}
+nav span	{margin:0 100px 0 0;}
+section		{float:right;width:80%;}
+footer		{clear:both;display:block;}
+
+#creditos_picture{width:150px;margin:0 auto;}
+#creditos_picture img{display:block;width:100%;}
+
+
+.yotube_wrap{
+	width:80%;
+	max-width: 640px;
+  	margin: 0 auto;
+}
+#creditos_video{
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+#creditos_video iframe, #creditos_video object, #creditos_video embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
