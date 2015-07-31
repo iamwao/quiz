@@ -1,9 +1,15 @@
 <table>
+	<tr>
+		<td>Pregunta</td>
+		<td>Tema</td>
+		<td>Opciones</td>
+	</tr>
 	<% var i; for(i = 0; i < quizes.length; i++){ %>
 		<tr>
 			<td>
 				<a href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta %></a>
 			</td>
+			<td> <%= quizes[i].tema %> </td>
 			<td>
 				<a href="quizes/<%= quizes[i].id %>/edit"><button type="button">editar</button></a>
 			</td>
@@ -17,4 +23,5 @@
 		</tr>
 	<% } %>
 </table>
+<br>
 <a href="/quizes/new"><button type="button">Crear pregunta</button></a>
